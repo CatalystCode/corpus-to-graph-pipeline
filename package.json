@@ -1,0 +1,21 @@
+{
+  "name": "azure-pipeline",
+  "version": "1.0.0",
+  "description": "azure pipeline module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "azure-storage": "^0.6.0",
+    "mocha": "^2.4.5",
+    "moment": "^2.11.1"
+  },
+  "author": "mor shemesh",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CatalystCode/miroculus-pipeline"
+  },
+  "license": "MIT"
+}
