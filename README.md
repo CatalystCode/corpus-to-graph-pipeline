@@ -1,4 +1,4 @@
-# Azure Pipeline
+# Corpus to Graph Pipeline
 A pipeline that processes documents from a public repository, 
 performs entity extraction + scoring on them and outputs the data into a database in the form of entity-relation graph.
 
@@ -27,7 +27,7 @@ There are 3 web jobs in the bundle
 |__Parser__    |Processes each document in *New IDs Queue* into <br>sentences and entities and pushes them into *Scoring Queue*
 |__Scoring__   |Scores each sentence in *Scoring Queue* via the *Scoring Service*
 
-To get more information on the message api between the web jobs and the queues see [Azure Pipeline - Message API](docs/queues.md)
+To get more information on the message api between the web jobs and the queues see [Corpus2Graph Pipeline - Message API](docs/queues.md)
 
 # Testing
 Initiate tests by running:

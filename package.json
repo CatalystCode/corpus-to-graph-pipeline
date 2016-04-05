@@ -1,6 +1,6 @@
 {
-  "name": "azure-pipeline",
-  "version": "1.0.0",
+  "name": "corpus2graph-pipeline",
+  "version": "1.0.1",
   "description": "A pipeline that processes documents from a public repository, performs entity extraction + scoring on them and outputs the data into a database in the form of entity-relation graph.",
   "main": "lib/index.js",
   "scripts": {
@@ -26,13 +26,13 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/CatalystCode/azure-pipeline/issues"
+    "url": "https://github.com/CatalystCode/corpus2graph-pipeline/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/CatalystCode/azure-pipeline"
+    "url": "git://github.com/CatalystCode/corpus2graph-pipeline"
   },
-  "homepage": "https://github.com/CatalystCode/azure-pipeline#readme",
+  "homepage": "https://github.com/CatalystCode/corpus2graph-pipeline#readme",
   "maintainers": [
     {
       "name": "amiturgman",
