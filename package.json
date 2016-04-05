@@ -1,7 +1,7 @@
 {
   "name": "azure-pipeline",
   "version": "1.0.0",
-  "description": "azure pipeline module",
+  "description": "A pipeline that processes documents from a public repository, performs entity extraction + scoring on them and outputs the data into a database in the form of entity-relation graph.",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/"
@@ -10,12 +10,38 @@
     "async": "^1.5.2",
     "azure-storage": "^0.6.0",
     "mocha": "^2.4.5",
-    "moment": "^2.11.1"
+    "moment": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "tedious": "^1.13.2",
+    "tedious-connection-pool": "^0.3.9"
   },
-  "author": "mor shemesh",
+  "author": {
+    "name": "Mor Shemesh",
+    "email": "morshe@microsoft.com"
+  },
+  "contributors": [
+    {
+      "name": "Ami Turgman",
+      "email": "ami.turgman@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/CatalystCode/azure-pipeline/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/CatalystCode/miroculus-pipeline"
+    "url": "git://github.com/CatalystCode/azure-pipeline"
   },
+  "homepage": "https://github.com/CatalystCode/azure-pipeline#readme",
+  "maintainers": [
+    {
+      "name": "amiturgman",
+      "email": "ami.turgman@microsoft.com"
+    },
+    {
+      "name": "Mor Shemesh",
+      "email": "morshe@microsoft.com"
+    }
+  ],
   "license": "MIT"
 }
