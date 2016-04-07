@@ -27,7 +27,7 @@ There are 3 web jobs in the bundle
 |__Parser__    |Processes each document in *New IDs Queue* into <br>sentences and entities and pushes them into *Scoring Queue*
 |__Scoring__   |Scores each sentence in *Scoring Queue* via the *Scoring Service*
 
-To get more information on the message api between the web jobs and the queues see [Corpus2Graph Pipeline - Message API](docs/queues.md)
+To get more information on the message api between the web jobs and the queues see [Corpus to Graph Pipeline - Message API](docs/queues.md)
 
 # Testing
 Initiate tests by running:
@@ -41,7 +41,7 @@ The test replaces the implementation of **azure sql database** and the **azure s
 > In the same way you can replace the implementation of **azure sql database** and the **azure storage queue** with non-azure implementations
 
 # Exmaple
-An exmaple on how to use this project for processing a document in a **Genomix** context see [Genomix Pipeline](https://github.com/CatalystCode/genomix-pipeline)
+An exmaple on how to use this project for processing a document in a **Genomics** context see [Corpus to Graph Genomics](https://github.com/CatalystCode/corpus-to-graph-genomics)
 
 # License
 Document Processing Pipeline is licensed under the [MIT License](LICENSE).
