@@ -26,13 +26,13 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/CatalystCode/corpus2graph-pipeline/issues"
+    "url": "https://github.com/CatalystCode/corpus-to-graph-pipeline/issues"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/CatalystCode/corpus2graph-pipeline"
   },
-  "homepage": "https://github.com/CatalystCode/corpus2graph-pipeline#readme",
+  "homepage": "https://github.com/CatalystCode/corpus-to-graph-pipeline#readme",
   "maintainers": [
     {
       "name": "amiturgman",
