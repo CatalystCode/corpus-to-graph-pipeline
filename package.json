@@ -1,6 +1,6 @@
 {
   "name": "corpus-to-graph-pipeline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A pipeline that processes documents from a public repository, performs entity extraction + scoring on them and outputs the data into a database in the form of entity-relation graph.",
   "main": "lib/index.js",
   "scripts": {
