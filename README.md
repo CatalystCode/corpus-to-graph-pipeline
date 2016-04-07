@@ -3,7 +3,7 @@ A pipeline that processes documents from a public repository,
 performs entity extraction + scoring on them and outputs the data into a database in the form of entity-relation graph.
 
 # Solution Architecture
-![Architecture Diagram](docs/architecture.png "Solution Architecture")
+![Architecture Diagram](docs/images/architecture.png "Solution Architecture")
 
 The elements in play in this solution are as follows:
 
