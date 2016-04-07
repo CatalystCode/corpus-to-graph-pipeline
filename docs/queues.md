@@ -99,9 +99,7 @@ Corpus to Graph pipeline components
 * Delete item from queue
 
 # Scoring Worker
-a.	Get items from scoring queue
-b.	Score and insert sentences to DB
-c.	Delete items from queue
-d.	Update document status to Processed
-
-
+1.	Get items from scoring queue
+2.	Score and insert sentences to DB
+3.	Delete items from queue
+4.	Update document status to Processed
