@@ -39,7 +39,7 @@ Corpus to Graph pipeline components
 
 # Fetching documents Worker
 * Get item from queue
-* Insert document record to db with status Processing
+* Insert document record to db with status processing
 * Fetch document
 * Split to sentences, do some processing
 * push sentences to scoring queue
@@ -95,7 +95,7 @@ Corpus to Graph pipeline components
 }
 ```
 
-* Change document status to Scoring
+* Change document status to 'scoring'
 * Delete item from queue
 
 # Scoring Worker
