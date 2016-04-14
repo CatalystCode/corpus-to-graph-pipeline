@@ -102,4 +102,4 @@ Corpus to Graph pipeline components
 1.	Get items from scoring queue
 2.	Score and insert sentences to DB
 3.	Delete items from queue
-4.	Update document status to Processed
+4.	Update document status to 'processed'
