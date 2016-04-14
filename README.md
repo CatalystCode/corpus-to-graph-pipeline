@@ -37,7 +37,7 @@ There are 3 web jobs in the bundle
 (Nadav: Consider changing to "In order to get more information", or "For more information.."
 To get more information on the message api between the web jobs and the queues see [Corpus to Graph Pipeline - Message API](docs/queues.md) (Nadav: Consider opening this in a new tab instead using the _blank tag)
 
-Nadav: 
+Nadav: Add a few words on what is needed to be implemented in order to use this module?
 
 # Testing
 Initiate tests by running:
